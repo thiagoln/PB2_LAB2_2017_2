@@ -189,8 +189,13 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="App_Start\Startup.Auth.cs" />
     <Compile Include="Controllers\AccountController.cs" />
+    <Compile Include="Controllers\ClubeController.cs" />
+    <Compile Include="Controllers\EnderecoController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\ManageController.cs" />
+    <Compile Include="Controllers\ServicoController.cs" />
+    <Compile Include="Controllers\SocioController.cs" />
+    <Compile Include="Controllers\TipoController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -262,9 +267,26 @@
     <Content Include="Views\Manage\VerifyPhoneNumber.cshtml" />
     <Content Include="Views\Shared\Lockout.cshtml" />
     <Content Include="Views\Shared\_LoginPartial.cshtml" />
+    <Content Include="Views\Clube\Create.cshtml" />
+    <Content Include="Views\Clube\Delete.cshtml" />
+    <Content Include="Views\Clube\Details.cshtml" />
+    <Content Include="Views\Clube\Edit.cshtml" />
+    <Content Include="Views\Clube\Index.cshtml" />
+    <Content Include="Views\Socio\Create.cshtml" />
+    <Content Include="Views\Socio\Delete.cshtml" />
+    <Content Include="Views\Socio\Details.cshtml" />
+    <Content Include="Views\Socio\Edit.cshtml" />
+    <Content Include="Views\Socio\Index.cshtml" />
+    <Content Include="Views\Servico\Create.cshtml" />
+    <Content Include="Views\Servico\Delete.cshtml" />
+    <Content Include="Views\Servico\Details.cshtml" />
+    <Content Include="Views\Servico\Edit.cshtml" />
+    <Content Include="Views\Servico\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\Endereco\" />
+    <Folder Include="Views\Tipo\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff" />

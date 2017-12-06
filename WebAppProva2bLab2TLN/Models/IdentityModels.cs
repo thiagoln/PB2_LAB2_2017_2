@@ -29,5 +29,15 @@ namespace WebAppProva2bLab2TLN.Models
         {
             return new ApplicationDbContext();
         }
+
+        public System.Data.Entity.DbSet<WebAppProva2bLab2TLN.Models.Clube> Clubes { get; set; }
+
+        public System.Data.Entity.DbSet<WebAppProva2bLab2TLN.Models.Socio> Socios { get; set; }
+
+        public System.Data.Entity.DbSet<WebAppProva2bLab2TLN.Models.Servico> Servicoes { get; set; }
+
+        public System.Data.Entity.DbSet<WebAppProva2bLab2TLN.Models.Endereco> Enderecoes { get; set; }
+
+        public System.Data.Entity.DbSet<WebAppProva2bLab2TLN.Models.Tipo> Tipoes { get; set; }
     }
 }

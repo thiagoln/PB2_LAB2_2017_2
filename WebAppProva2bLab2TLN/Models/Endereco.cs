@@ -13,7 +13,7 @@ namespace WebAppProva2bLab2TLN.Models
         public String Bairro { get; set; }
         public String CEP { get; set; }
         public String Numero { get; set; }
-        public List<Socio> Socio { get; set; }
+        public Socio Socio { get; set; }
 
 
     }

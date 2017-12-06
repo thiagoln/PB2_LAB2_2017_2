@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Data.Entity.ModelConfiguration.Conventions;
 using System.Linq;
 using System.Web;
 
@@ -14,7 +15,9 @@ namespace WebAppProva2bLab2TLN.Models
         public String Descricao { get; set; }
         public List<Socio> Socios { get; set; }
         public List<Servico> Servicos { get; set; }
-        public List<Tipo> Tipo { get; set; }
+        public Tipo Tipo { get; set; }
 
+
+        
     }
 }

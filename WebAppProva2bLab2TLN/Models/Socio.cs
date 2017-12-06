@@ -11,8 +11,8 @@ namespace WebAppProva2bLab2TLN.Models
         public int SocioId { get; set; }
         public String Nome { get; set; }
         public String Email { get; set; }
-        public List<Clube> Clube { get; set; }
-        public List<Endereco> Endereco { get; set; }
+        public Clube Clube { get; set; }
+        public Endereco Endereco { get; set; }
 
 
     }
